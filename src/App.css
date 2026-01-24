@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@theme {
+  /* ====== COLOR ====== */
+
+  --color-red-400: hsl(0, 100%, 74%);
+  --color-green-400: hsl(154, 59%, 51%);
+  /* Accent */
+  --color-purple-700: hsl(248, 32%, 49%);
+  /* Neutral */
+  --color-gray-900: hsl(249, 10%, 26%);
+  --color-purple-350: hsl(246, 25%, 77%);
+
+  /* ====== TYPOGRAPHY ====== */
+  font-poppins: "Poppins", sans-serif;
+}
