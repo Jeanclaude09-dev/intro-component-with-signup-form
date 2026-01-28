@@ -29,6 +29,13 @@ main {
   background-repeat: no-repeat;
   background-position: cover;
 }
+@media (max-width: 660px) {
+  main {
+    background-image: url(assets/images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;

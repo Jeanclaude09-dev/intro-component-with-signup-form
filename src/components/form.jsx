@@ -47,7 +47,7 @@ export default function Form() {
   const errorStyles =
     "border-red-400 p-6 focus-visible:ring-0 focus-visible:ring-offset-0 focus-visible:border-red-400";
   const normalStyles =
-    "border-gray-900 p-6 outline-purple-700 focus-visible:ring-0 focus-visible:ring-offset-0 ";
+    "border-gray-900 border p-6 focus:outline-purple-700 focus-visible:ring-0 focus-visible:ring-offset-0 ";
 
   return (
     <form
