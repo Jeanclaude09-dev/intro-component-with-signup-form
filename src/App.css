@@ -24,6 +24,11 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/font/Poppins-Regular.ttf);
+}
+
 main {
   background-image: url(assets/images/bg-intro-desktop.png);
   background-repeat: no-repeat;
